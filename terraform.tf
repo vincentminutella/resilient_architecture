@@ -2,11 +2,11 @@ terraform {
 
     cloud {
         workspaces {
-            name = "fitness-tracker-app"
-            project = "fitness-tracker-app" 
+            name = "re-app"
+            project = "re-app" 
         }
     
-        organization = "example-org-66a440"
+        organization = ""
     }
 
     required_providers {
