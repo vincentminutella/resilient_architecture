@@ -2,8 +2,8 @@ terraform {
 
     cloud {
         workspaces {
-            name = "re-app"
-            project = "re-app" 
+            name = "fitness-tracker-app"
+            project = "fitness-tracker-app" 
         }
     
         organization = "example-org-66a440"
@@ -12,7 +12,7 @@ terraform {
     required_providers {
         aws = {
             source = "hashicorp/aws"
-            version = "~> 5.0"
+            version = "5.34.0"
         }
 
         random = {
