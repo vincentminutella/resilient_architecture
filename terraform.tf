@@ -2,8 +2,7 @@ terraform {
 
     cloud {
         workspaces {
-            name = "re-app"
-            project = "re-app" 
+            name = ""
         }
     
         organization = ""
